@@ -1,0 +1,60 @@
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+    .info-watches-content{
+        width: 100%
+    }
+    .reviews .reviews-content{
+        padding: 10px 0;
+    }
+    .company .company-content{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 2vh;
+    }
+    footer{ 
+        display: none !important;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .menu-logo{
+        display: none !important;
+    }
+    .call{
+        display: none !important;
+    }
+    nav .menu-content{
+            grid-template-columns: none;
+    }
+.reviews .reviews-content .reviews-bocks {
+    grid-template-columns: none !important ;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .company .company-content .company-logo img{
+      transition: none;
+  }
+  .company .company-content .company-logo img:hover{
+    filter: opacity(30%);
+  transform: none;  
+    transition: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1439.98px) {
+}
+@media (max-width: 1599.98px) {
+}
+@media (max-width: 1799.98px) {
+}
+@media (max-width: 2047.98px) {
+}
