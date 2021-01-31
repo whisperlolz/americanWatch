@@ -9,9 +9,7 @@
   .info-watches-content .info-watches-title {
     font-size: 1em !important;
   }
-  .info-watches-content .info-watches-text {
-    font-size: 0.7em !important;
-  }
+
   .reviews .reviews-content .reviews-title h1 {
     font-size: 2em !important;
   }
@@ -37,6 +35,7 @@
 }
 
 @media (max-width: 575px) {
+    
    .top-line .line {
     font-size: 0.5em;
   }
@@ -60,6 +59,9 @@ padding-top: 20vh;
   }
   .custom-whatches .custom-content{
       text-align: center;
+  }
+  .info-watches-content{
+      padding-top: 25vh;
   }
   .info-watches-content .info-watches-title {
     font-size: 2em;
