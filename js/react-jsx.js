@@ -146,14 +146,14 @@ class InfoAnimation extends React.Component {
         >
           <div className="arrow-left">
             <img
-              src="/img/icon/left-arrow.png"
+              src="img/icon/left-arrow.png"
               alt="left-arrow"
               className="left-arrow"
             />
           </div>
           <div className="arrow-right">
             <img
-              src="/img/icon/right-arrow.png"
+              src="img/icon/right-arrow.png"
               alt="right-arrow"
               className="right-arrow"
             />

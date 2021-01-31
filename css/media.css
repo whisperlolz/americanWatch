@@ -40,6 +40,9 @@
    .top-line .line {
     font-size: 0.5em;
   }
+  .top-line .line span{
+      font-size: 1.5em;
+  }
   nav .menu .menu-list ul li a {
     font-size: 1em;
   }.custom-whatches .custom-img{
