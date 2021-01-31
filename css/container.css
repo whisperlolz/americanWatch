@@ -49,3 +49,8 @@
     max-width: 1990px;
   }
 }
+@media (min-width: 2159.98px) {
+  .container {
+    max-width: 2100px;
+  }
+}
