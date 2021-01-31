@@ -30,6 +30,10 @@
   .company .company-content .company-logo {
     max-width: 150px;
   }
+  .custom-whatches .custom-img{
+      left: -50vw;
+      width: 155%;
+  }
 }
 
 @media (max-width: 575px) {
