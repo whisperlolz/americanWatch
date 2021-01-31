@@ -4,8 +4,6 @@
   box-sizing: content-box;
 }
 
-
-
 body {
   font-size: 0.88em;
   font-family: "Bebas Neue Bold";
@@ -181,7 +179,7 @@ nav .menu .call .call-number a {
 }
 
 .custom-whatches .custom-content {
-  width: 570px;
+  max-width: 570px;
   height: auto;
   padding-top: 205px;
   z-index: 1;
@@ -296,7 +294,7 @@ nav .menu .call .call-number a {
 .info-watches-content {
   width: 40%;
   height: auto;
-  padding-top: 5%;
+  padding-top: 10%;
   float: right;
   overflow-x: hidden;
   z-index: 3;
@@ -334,7 +332,6 @@ nav .menu .call .call-number a {
 .info-watches-content .info-watches-title {
   padding-top: 53px;
   font-size: 3em;
-  
 }
 
 .info-watches-content .info-watches-text {
@@ -425,21 +422,21 @@ nav .menu .call .call-number a {
   max-width: 100%;
   height: auto;
 }
- .collections-content .collections-visible .collections-watch {
+.collections-content .collections-visible .collections-watch {
   border: 1px solid #767676;
   padding: 70px 85px 50px 85px;
   text-align: center;
 }
- .collections-visible .collections-watch img {
+.collections-visible .collections-watch img {
   width: 170px;
   height: auto;
 }
- .collections-visible .collections-watch h3 {
+.collections-visible .collections-watch h3 {
   padding-top: 60px;
   font-size: 1.9em;
   letter-spacing: 1px;
 }
- .collections-visible .collections-watch p {
+.collections-visible .collections-watch p {
   padding-top: 25px;
   font-size: 1.5em;
   color: rgb(182, 144, 126);
@@ -472,12 +469,12 @@ nav .menu .call .call-number a {
   width: 100%;
   height: auto;
   filter: opacity(30%);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 .company .company-content .company-logo img:hover {
   filter: opacity(60%);
   transform: scale(1.2);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 /* -- BLOK 5  ------------------------------------------- */
 

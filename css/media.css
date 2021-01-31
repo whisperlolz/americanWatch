@@ -1,42 +1,134 @@
+@media (max-width: 310px) {
+}
+
+@media (max-width: 375px) {
+.custom-whatches .custom-content .custom-btn{
+    width: 50%;
+}
+.custom-whatches .custom-content .custom-btn button.custom-item:first-child{
+    margin-bottom: 20px;
+}
+.custom-whatches .custom-content .custom-btn button.custom-item{
+    padding: 8% !important;
+}
+    .custom-whatches .custom-content .custom-title h1{
+        font-size: 2em !important;
+    }
+    .info-watches-content .info-watches-title{
+        font-size: 1em !important;
+    }
+    .info-watches-content .info-watches-text{
+        font-size: .7em !important;
+    }
+    .reviews .reviews-content .reviews-title h1{
+        font-size: 2em !important;
+    }
+    .reviews .reviews-content .reviews-bocks .reviews-text h2{
+        font-size: 1.5em;
+    }
+    .reviews .reviews-content .reviews-bocks .reviews-text{
+        font-size: 1em;
+    }
+    .company .company-content .company-logo{
+        width: 110px;
+    }
+    
+}
+
+@media (max-width: 440px) {
+    .company .company-content .company-logo{
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 575px) {
+    nav .top-line .line{
+        font-size: 0.5em;
+    }
+    nav .menu .menu-list ul li a{
+        font-size: 1em;
+    }
+    .custom-whatches .custom-content .custom-title h1{
+        font-size: 3em;
+    }
+    .info-watches-content .info-watches-title{
+        font-size: 2em;
+    }
+    .info-watches-content .info-watches-text{
+        font-size: 1em;
+    }
+    .reviews .reviews-content .reviews-title h1{
+        font-size: 2em;
+    }
+    .reviews .reviews-content .reviews-bocks .reviews-slide{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2,1fr);
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
 @media (max-width: 767.98px) {
 }
 
 @media (max-width: 991.98px) {
-    .info-watches-content{
-        width: 100%
-    }
-    .reviews .reviews-content{
-        padding: 10px 0;
-    }
-    .company .company-content{
-        grid-template-columns: repeat(2,1fr);
-        row-gap: 2vh;
-    }
-    footer{ 
-        display: none !important;
-    }
+  nav .menu .menu-list ul {
+    padding-bottom: 1%;
+  }
+
+  .custom-whatches .custom-content .custom-btn button.custom-item:active {
+    color: rgb(206 206 206);
+    border: 2px solid rgb(206 206 206);
+  }
+  .custom-whatches .custom-content .custom-btn {
+    padding: 5% 0;
+  }
+  .custom-whatches .custom-content .custom-btn button.custom-item {
+    padding: 2%;
+  }
+
+  .info-watches:after {
+    background: linear-gradient(247deg, rgb(0 0 0) 37%, rgb(0 0 0 / 34%) 75%);
+  }
+  .info-watches-content {
+    width: 100%;
+  }
+  .info-watches-content .info-watches-text {
+    color: #ffffffb5;
+  }
+  .reviews .reviews-content {
+    padding: 5%;
+  }
+  .company .company-content {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2vh;
+  }
+  footer {
+    display: none !important;
+  }
 }
 
 @media (max-width: 1199.98px) {
-    .menu-logo{
-        display: none !important;
-    }
-    .call{
-        display: none !important;
-    }
-    nav .menu-content{
-            grid-template-columns: none;
-    }
-.reviews .reviews-content .reviews-bocks {
+  .menu-logo {
+    display: none !important;
+  }
+  .call {
+    display: none !important;
+  }
+  nav .menu-content {
+    grid-template-columns: none;
+  }
+  .reviews .reviews-content .reviews-bocks {
     grid-template-columns: none !important ;
     grid-template-rows: repeat(2, 1fr);
   }
-  .company .company-content .company-logo img{
-      transition: none;
+  .company .company-content .company-logo img {
+    transition: none;
   }
-  .company .company-content .company-logo img:hover{
+  .company .company-content .company-logo img:hover {
     filter: opacity(30%);
-  transform: none;  
+    transform: none;
     transition: none;
   }
 }
