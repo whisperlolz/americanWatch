@@ -2,15 +2,7 @@
 }
 
 @media (max-width: 375px) {
-  .custom-whatches .custom-content .custom-btn {
-    width: 50%;
-  }
-  .custom-whatches .custom-content .custom-btn button.custom-item:first-child {
-    margin-bottom: 20px;
-  }
-  .custom-whatches .custom-content .custom-btn button.custom-item {
-    padding: 8% !important;
-  }
+
   .custom-whatches .custom-content .custom-title h1 {
     font-size: 2em !important;
   }
