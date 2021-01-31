@@ -6,7 +6,7 @@
 
 body {
   font-size: 0.88em;
-  font-family: "Bebas Neue Bold";
+  font-family: "Bebas Neue";
   background-color: #000;
   color: #fff;
 }
@@ -41,7 +41,9 @@ nav .top-line .line {
   justify-content: space-between;
   align-items: center;
   color: #767676;
-  font-family: "PT Sans Italic";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 nav .top-line .line-icon {
@@ -68,7 +70,8 @@ nav .top-line .line-icon .line-icon-item:nth-child(2) span {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "PT Sans Bold";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   cursor: default;
 }
 
@@ -123,7 +126,9 @@ nav .menu .menu-logo h1 {
 nav .menu .menu-logo .logo-text {
   margin-left: 15px;
   color: #767676;
-  font-family: "PT Sans Italic";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 nav .menu .menu-list ul {
@@ -338,7 +343,8 @@ nav .menu .call .call-number a {
   padding-top: 35px;
   text-align: justify;
   font-size: 1.2em;
-  font-family: "PT Sans Regular";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   color: #767676;
   line-height: 1.6em;
   font-weight: 600;
@@ -391,7 +397,8 @@ nav .menu .call .call-number a {
 }
 .collections .collections-content .collections-text .collections-filtrs {
   font-size: 1.1em;
-  font-family: "PT Sans Bold";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   width: 150px;
 }
 
@@ -527,7 +534,8 @@ nav .menu .call .call-number a {
   padding: 30px 0;
 }
 .reviews .reviews-content .reviews-bocks .reviews-text p {
-  font-family: "PT Sans Regular";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.1em;
   line-height: 20px;
   color: #767676;
@@ -566,7 +574,9 @@ nav .menu .call .call-number a {
 }
 
 .footer .footer-content .footer-text .footer-logo p {
-  font-family: "PT Sans Italic";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .footer .footer-content .footer-text .footer-menu ul {
   display: grid;
@@ -586,7 +596,8 @@ nav .menu .call .call-number a {
   padding-top: 100px;
   display: flex;
   justify-content: space-between;
-  font-family: "PT Sans Regular";
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
 }
 
 .footer .footer-top .footer-top-social img {
