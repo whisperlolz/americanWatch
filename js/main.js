@@ -62,20 +62,6 @@ window.addEventListener("DOMContentLoaded", function () {
     menu = document.querySelector(".menu"),
     customContent = document.querySelector(".custom-content");
   
-
-  //Fixed Menu ----------------------------------------------
-  function scrollMenu() {
-    let scroll = document.documentElement.scrollTop,
-      topLineHeight = topLine.offsetHeight;
-    if (scroll >= topLineHeight) {
-      menu.classList.add("menu-fixed");
-      customContent.style.paddingTop = 150 + topLine.offsetHeight + "px";
-    } else {
-      menu.classList.remove("menu-fixed");
-      customContent.style.paddingTop = 205 + "px";
-      
-    }
-  }
   //Info TEXT ----------------------------------------------
 
   function animationInfoText() {
@@ -89,7 +75,6 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 
   window.onscroll = function () {
-    scrollMenu();
     animationInfoText();
   };
 

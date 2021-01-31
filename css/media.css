@@ -41,12 +41,21 @@
 }
 
 @media (max-width: 575px) {
-  nav .top-line .line {
+   .top-line .line {
     font-size: 0.5em;
   }
   nav .menu .menu-list ul li a {
     font-size: 1em;
+  }.custom-whatches .custom-img{
+    height: 50vh;
+    top: 50vh;
   }
+
+.custom-whatches .custom-content{
+    height: 50vh;
+padding-top: 20vh;
+}
+
   .custom-whatches .custom-content .custom-title h1 {
     font-size: 3em;
   }
